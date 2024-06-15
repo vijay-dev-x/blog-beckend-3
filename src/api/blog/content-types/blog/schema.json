@@ -33,6 +33,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::catagory.catagory"
+    },
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDesc": {
+      "type": "text"
     }
   }
 }

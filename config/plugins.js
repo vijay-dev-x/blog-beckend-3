@@ -1,4 +1,14 @@
 module.exports = ({ env }) => ({
+  // email: {
+  //   provider: "sendgrid",
+  //   providerOptions: {
+  //     apiKey: env("SENDGRID_API_KEY"),
+  //   },
+  //   settings: {
+  //     defaultFrom: "vm2218943@gmail.com",
+  //     defaultReplyTo: "vm2218943@gmail.com",
+  //   },
+  // },
   upload: {
     config: {
       provider: "cloudinary",

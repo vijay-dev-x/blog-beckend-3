@@ -808,6 +808,8 @@ export interface ApiBlogBlog extends Schema.CollectionType {
       'oneToOne',
       'api::catagory.catagory'
     >;
+    metaTitle: Attribute.String;
+    metaDesc: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
